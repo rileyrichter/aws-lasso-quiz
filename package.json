@@ -1,0 +1,16 @@
+{
+  "name": "buzzfeed-node",
+  "version": "1.0.0",
+  "description": "Node app to post and get Ted Lasso quiz stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Ben Parker",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "env": "^0.0.2",
+    "joi": "^17.9.2"
+  }
+}
