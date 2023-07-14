@@ -10,8 +10,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Compiling the Node.js code...
-      - npm run build # only needed if your app requires a build step like a React app
+      - echo No compile step necessary for this project...
 artifacts:
   files:
     - "**/*"
